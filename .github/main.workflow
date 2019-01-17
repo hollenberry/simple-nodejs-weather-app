@@ -10,4 +10,5 @@ action "GitHub Action for Zeit" {
     "ZEIT_TOKEN",
     "apiKey",
   ]
+  args = "-e apiKey=$apiKey"
 }
