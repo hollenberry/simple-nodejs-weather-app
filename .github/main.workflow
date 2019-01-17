@@ -8,7 +8,6 @@ action "GitHub Action for Zeit" {
   secrets = [
     "GITHUB_TOKEN",
     "ZEIT_TOKEN",
-    "apiKey",
   ]
   args = "-e apiKey=$apiKey"
 }
